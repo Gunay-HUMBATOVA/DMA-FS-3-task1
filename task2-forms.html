@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- I -->
+    <form>
+        <label for="name">name:</label>
+        <input type="text" id="name" placeholder="Gunay">
+        <br />
+        <br />
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="example@mail.ru">
+        <br />
+        <br />
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="enter password">
+        <br />
+        <br />
+        <label for="checkbox">checkbox:</label>
+        <input type="checkbox" id="checkbox">
+        <br />
+        <br />
+        <label for="a">radio a</label>
+        <input type="radio" id="a">
+        <label for="b">radio b</label>
+        <input type="radio" id="b">
+        <label for="c">radio c</label>
+        <input type="radio" id="c">
+        <br />
+        <br />
+        <label for="ignored">ignored:</label>
+        <input type="text" id="ignored" placeholder="10.45" readonly>
+        <br />
+        <br />
+        <label for="message">message:</label>
+        <textarea id="message" cols="30" rows="10"></textarea>
+        <br />
+        <br />
+        <input type="reset" value="Reset">
+        <input type="submit" value="Send">
+    </form>
+
+
+    <!-- II -->
+    <h1>Book Survey</h1>
+    <form>
+        <fieldset style="width:500px">
+            <legend>Student Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <br />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </fieldset>
+        <br />
+        <br />
+        <fieldset style="width:500px">
+            <legend>Select your gender</legend>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br />
+        <br />
+        <fieldset style="width:500px">
+            <legend>Select your interests:</legend>
+            <input type="checkbox" name="interests" id="interests1">
+            <label for="interests1">Music</label>
+            <input type="checkbox" name="interests" id="interests2">
+            <label for="interests2">Movies</label>
+            <br />
+            <input type="checkbox" name="interests" id="interests3">
+            <label for="interests3">Sports</label>
+            <input type="checkbox" name="interests" id="interests4">
+            <label for="interests4">Travel</label>
+            <br />
+            <input type="checkbox" name="interests" id="interests5">
+            <label for="interests5">Cooking</label>
+            <input type="checkbox" name="interests" id="interests6">
+            <label for="interests6">Reading</label>
+        </fieldset>
+        <br />
+        <br />
+        <fieldset style="width:500px">
+            <legend>Select your favorite book:</legend>
+            <select name="book" id="book" size="3">
+                <option value="1">Select a book</option>
+                <option value="2">The Hobbit</option>
+                <option value="3">The Hitchhiker</option>
+                <option value="4">The Dark Tower</option>
+                <option value="5">The Lord of the Rings</option>
+            </select>
+        </fieldset>
+        <br />
+        <br />
+        <fieldset style="width:500px">
+            <legend>What role does reading books play in your life?</legend>
+            <textarea id="description" cols="50" rows="5"></textarea>
+        </fieldset>
+        <br />
+        <br />
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
