@@ -1,0 +1,13 @@
+table {
+    width: 50%;
+    border-spacing: 0px !important;
+}
+
+table * {
+    border: 1px solid rgb(166, 166, 166) !important;
+    padding: 8px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #98fb98;
+}
