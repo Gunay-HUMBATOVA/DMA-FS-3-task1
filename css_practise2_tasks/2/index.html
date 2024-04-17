@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: #fff;
+        }
+
+        .inner-div {
+            border: 1px solid red;
+            width: 400px;
+            padding: 20px;
+            margin: auto;
+            position: relative;
+        }
+
+        .box {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            background-color: #B0E1E6;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .box:first-child {
+           position: absolute;
+           top: 50px;
+        }
+
+        .box:nth-child(2) {
+            background-color: blue;
+        }
+
+        .box:nth-child(3) {
+            background-color: #A1522D;
+        }
+
+        .box:nth-child(4) {
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="inner-div">
+            <div class="box">One</div>
+            <div class="box">Two</div>
+            <div class="box">Three</div>
+            <div class="box">Four</div>
+        </div>
+    </div>
+</body>
+
+</html>
